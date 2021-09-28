@@ -21,8 +21,9 @@ function currentDateOfCheck() {
     let FullDateandTime = "Date : " + date + "/" + month + "/" + year + ` ~ ~ Time : ${hours}:${minutes}:${seconds}`;
     return FullDateandTime;
 }
-axios.get(TargetURL)
-    .then((response) => {
+async function ScrapeData() {
+    try {
+        const response = await axios.get(TargetURL);
         const htmlOfThePage = response.data;
         //console.log(htmlOfThePage);
         const $ = cheerio.load(htmlOfThePage);
@@ -51,5 +52,9 @@ axios.get(TargetURL)
             }
             console.log("Successfully written data to file");
         });
-    })
-    .catch((error) => console.log(error));
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+setInterval(() => ScrapeData(), 2000);
