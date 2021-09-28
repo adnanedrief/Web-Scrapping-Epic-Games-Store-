@@ -76,7 +76,6 @@ async function ScrapeData() {
             itemExtracted.date = currentDateOfCheck();
             itemExtracted.time = currentTimeOfCheck();
 
-            // Ajouter à notre Array l'élément extrait
             ArrayOfResult.push(itemExtracted);
 
         });
@@ -91,6 +90,7 @@ async function ScrapeData() {
         });
 
         convertJSONToCSV();
+
     } catch (error) {
         console.log(error);
     }
