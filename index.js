@@ -37,7 +37,6 @@ function convertJSONToCSV() {
     // Reading json file(filename -data.json)
     readFile('./result.json', 'utf-8', (err, fileContent) => {
         if (err) {
-            // Doing something to handle the error or just throw it
             console.log(err);
             throw new Error(err);
         }
@@ -45,7 +44,7 @@ function convertJSONToCSV() {
         const csvData = csvjson.toCSV(fileContent, {
             headers: 'key'
         });
-        // Write data into csv file named college_data.csv
+        // Write data into csv file 
         writeFile('./result.csv', csvData, (err) => {
             if (err) {
                 console.log(err);
@@ -80,7 +79,7 @@ async function ScrapeData() {
 
         });
         console.dir(ArrayOfResult, { maxArrayLength: null });
-        // exporter le resultat sous forma fichier json
+        // exporter le resultat sous format fichier json
         fs.writeFile("result.json", JSON.stringify(ArrayOfResult, null, 2), (err) => {
             if (err) {
                 console.error(err);
