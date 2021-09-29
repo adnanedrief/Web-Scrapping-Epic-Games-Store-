@@ -21,17 +21,16 @@ Here we need to scrape Name + Current Price +  the Date and The Time of Scrappin
 
 ![Epic_Games_Store](https://raw.githubusercontent.com/adnanedrief/Web-Scrapping-Epic-Games-Store-/main/picsForDemo/EpicGmesStore.png?token=ASH4O3SWDBWI2FGFHPAU3TTBLWPTU)
 
-
 ## Result in JSON format 
 
-![JSON_RSLT](https://raw.githubusercontent.com/adnanedrief/Web-Scrapping-Epic-Games-Store-/main/picsForDemo/jsonRslt.png?token=ASH4O3XK5UWHGTNIPSVDO2TBLWQGM)
+<img src="https://raw.githubusercontent.com/adnanedrief/Web-Scrapping-Epic-Games-Store-/main/picsForDemo/jsonRslt.png?token=ASH4O3XK5UWHGTNIPSVDO2TBLWQGM" style="width:70%"/>
 
 ## Result in CSV format 
 
-![JSON_RSLT](https://raw.githubusercontent.com/adnanedrief/Web-Scrapping-Epic-Games-Store-/main/picsForDemo/result_csv.png?token=ASH4O3X74G5PGENV6QQOTLLBLWQKA)
+<img src="https://raw.githubusercontent.com/adnanedrief/Web-Scrapping-Epic-Games-Store-/main/picsForDemo/result_csv.png?token=ASH4O3X74G5PGENV6QQOTLLBLWQKA" style="width:70%"/>
 
 ## Result in EXCEL format 
 
 Here to properly display CSV file in EXCEL you can use this simple tutorial. ~ [ClickHere](https://youtu.be/ebnNy5yEkvc) ~
 
-![JSON_RSLT](https://raw.githubusercontent.com/adnanedrief/Web-Scrapping-Epic-Games-Store-/main/picsForDemo/result_xlsx.png?token=ASH4O3T7KL7PDLXPXTFIEUTBLWQNO)
+<img src="https://raw.githubusercontent.com/adnanedrief/Web-Scrapping-Epic-Games-Store-/main/picsForDemo/result_xlsx.png?token=ASH4O3T7KL7PDLXPXTFIEUTBLWQNO" style="width:70%"/>
