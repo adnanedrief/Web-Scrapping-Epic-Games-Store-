@@ -96,4 +96,4 @@ async function ScrapeData() {
     }
 }
 
-setInterval(() => ScrapeData(), 5000); // rexecute the script every 5 s
+setInterval(() => ScrapeData(), 2000); // rexecute the script every 2 s
